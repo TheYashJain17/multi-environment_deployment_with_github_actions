@@ -30,7 +30,7 @@ jobs:
         with:
           name: build-file
           path: .next/**
-          include-hidden-file: true
+          include-hidden-files: true
     
   stage-deployment:
     runs-on: ubuntu-latest
